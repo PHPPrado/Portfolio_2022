@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.topbar {
+    width: 100%;
+    height: 95px;
+    display: block;
+    background-color: #4D4C4C;
+    opacity: 0.95;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 74px;
+    height: 110px;
+    float: left;
+    margin-left: 60px;
+    background-color: #faac11;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.logo img {
+    width: 50px;
+    height: 60px;
+    display: block;
+    margin: 35px auto 0 auto;
+
+}
+
+.menu {
+    display: table;
+    float: left;
+    height: 110px;
+    margin-left: 30px;
+    animation: Fade-In;
+
+}
+
+.menu a {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 20px;
+    color: #F0E3CA;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px 20px 0 20px;
+    position: relative;
+
+}
+
+#inicio {
+    display: inline-block;
+}
+
+#projetos {
+    display: inline-block;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+
+.menu a:hover {
+    color: #F0E3CA;
+}
+
+.menu a:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #faac11;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.menu a:hover:before {
+    transform: scale(1, 1);
+}
+
+.btn-contato {
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-color: #F0E3CA;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    border-radius: 50%;
+    z-index: 200;
+    background-image: url(images/icon-contact-close.svg);
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    animation: ChangeColor 5s infinite ease-in;
+
+}
+
+.contato-info {
+    width: 245px;
+    display: none;
+    height: 165px;
+    background-color: rgb(70, 70, 70);
+    padding: 25px;
+    position: fixed;
+    bottom: 115px;
+    z-index: 200;
+    right: 65px;
+}
+
+.contato-info-inner {
+    display: table;
+    width: 100%;
+
+}
+
+.contato-info-inner p {
+    font-size: 14px;
+    color: #F0E3CA;
+    line-height: 24px;
+}
+
+.social-links {
+    width: 100%;
+    height: 45px;
+    display: block;
+    position: relative;
+}
+
+svg.social-links path {
+    fill: #FF8303
+}
+
+.social-icon {
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    left: -12px;
+}
+
+.social-icon>img {
+    width: 25px;
+    height: auto;
+    display: block;
+    margin: 12px auto 0px;
+}
+
+.esta-aberto {
+    display: block;
+}
+
+
+
+
+.no-hide {
+    display: table;
+}
+
+.mudar-icone-contato {
+    background-position-y: -45px;
+}
+
+#section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #faac11;
+
+}
+
+#versão {
+    display: block;
+    position: fixed;
+    z-index: 500;
+    opacity: 0.6;
+    bottom: 0px;
+}
