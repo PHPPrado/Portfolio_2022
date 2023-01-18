@@ -4,6 +4,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 p {
@@ -128,7 +129,7 @@ p {
     }
 
     80% {
-        background-color: #4D4C4C;
+        background-color: #FF8303;
     }
 
     100% {
@@ -612,7 +613,7 @@ p {
         border-radius: 5px;
         margin-top: 50px;
         margin-bottom: 15px;
-        background-color: white;
+        background-color: #FF8303;
         animation: 1.5s linear forwards normal OrangeLineAnime;
     }
 
@@ -630,7 +631,7 @@ p {
         font-size: 3vh;
         font-family: 'Open Sans' sans-serif;
         text-decoration: underline #FF8303;
-        color: #F0E3CA;
+        color: #4D4C4C;
     }
 
     .container-skills a:hover {
@@ -910,7 +911,7 @@ p {
 }
 
 .text-cinza {
-    color: #F0E3CA;
+    color:#4D4C4C;
 }
 
 .text-roxo {
@@ -956,6 +957,6 @@ p {
     /*display: none;*/
     position: fixed;
     z-index: 500;
-    opacity: 0.1;
+    opacity: 0.5;
     bottom: 0px;
 }
