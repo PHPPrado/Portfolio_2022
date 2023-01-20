@@ -287,30 +287,32 @@ p {
         height: 60px;
         display: block;
         margin: 15px auto 0 auto;
+    }
 
+    #desktop {
+        display: none;
     }
 
     footer {
+        display: grid;
+        align-items: center;
+        height: auto;
         background-color: #FF8303;
-        height: 40vh;
-        width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
     }
 
-    li {
-        margin-left: 10vh;
-        list-style: none;
-        width: 150vh;
+    footer img {
+        margin: 5vh auto 0;
+        width: 10vh;
     }
 
-    ul {
-        margin-bottom: -15px;
-        display: inline;
-        text-decoration: none;
-
+    footer p {
+       display: block;
+       width: 100%;
+       margin: 0 auto 10px;
+       text-align: center;
+       color: #F0E3CA;
+       font-family: 'Albert Sans';
     }
-
     /*----Botão de contato/Contact Buttom----*/
 
     .btn-contato {
@@ -335,7 +337,7 @@ p {
         width: 245px;
         display: none;
         height: 165px;
-        background-color: rgb(70, 70, 70);
+        background-color: #f1d49d;
         padding: 25px;
         position: fixed;
         bottom: 115px;
@@ -351,7 +353,7 @@ p {
 
     .contato-info-inner p {
         font-size: 14px;
-        color: #F0E3CA;
+        color: #4D4C4C;
         line-height: 24px;
     }
 
@@ -640,7 +642,7 @@ p {
 
     #sobre {
         width: auto;
-        margin: 0 auto;
+        margin: 0 auto 10vh;
         text-align: justify;
     }
 
@@ -689,7 +691,7 @@ p {
     }
 
     #ultimo-cert {
-        margin-bottom: 20px;
+        margin-bottom: 10vh;
     }
 
 
@@ -741,7 +743,7 @@ p {
     }
 
     .logo {
-        width: 74px;
+        width: 250px;
         height: 110px;
         float: left;
         margin-left: 60px;
@@ -751,11 +753,19 @@ p {
     }
 
     .logo img {
-        width: 50px;
-        height: 60px;
+        width: 200px;
+        height: auto;
         display: block;
-        margin: 35px auto 0 auto;
+        margin: 20px auto 0 auto;
 
+    }
+
+    #desktop {
+        display: block;
+    }
+
+    #mobile {
+        display: none;
     }
 
     .menu {
@@ -777,6 +787,27 @@ p {
         position: relative;
 
     }
+
+    footer {
+        display: grid;
+        align-items: center;
+        height: auto;
+        background-color: #FF8303;
+    }
+
+    footer img {
+        margin: 30px auto 0;
+        width: 150px;
+    }
+    
+    footer p {
+        display: block;
+        width: 100%;
+        margin: 0 auto 10px;
+        text-align: center;
+        color: #F0E3CA;
+        font-family: 'Albert Sans';
+     }
 
     .display-text {
         margin-top: 20vh;

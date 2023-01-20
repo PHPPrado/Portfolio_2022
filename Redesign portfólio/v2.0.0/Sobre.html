@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,400i,700,700i,800,800i&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -15,7 +18,8 @@
 <body>
     <header class="topbar">
         <div class="logo">
-            <img src="images/Logo_Pedroh.png" alt="PedroH" onclick="window.location.href='index.html'" />
+            <img id="mobile" src="images/Logo_Pedroh.png" title="PedroH" alt="PedroH" onclick="window.location.href='index.html'" />
+            <img id="desktop" src="images/Novo Logo.png" title="PedroH" alt="PedroH" onclick="window.location.href='index.html'" />
         </div>
         <nav class="menu">
             <a href="index.html">Início</a>
@@ -68,6 +72,10 @@
                 </div>
             </div>
     </div>
+    <footer>
+        <img src="images/Logo_Pedroh.png" alt="Logo" title="Logo">
+        <p>pedro.phprado@gmail.com<p>
+    </footer>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
