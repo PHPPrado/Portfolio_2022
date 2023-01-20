@@ -713,11 +713,9 @@ p {
 
     .novidades img {
         display: grid;
-        width: 95%;
+        width: 100%;
         height: auto;
-        margin: 20vh auto 5vh;
-        border: 3px solid #FF8303;
-        border-radius: 8px;
+        margin: 15vh auto 5vh;
     }
 
     .novidades h1 {
@@ -943,6 +941,13 @@ p {
         display: grid;
         justify-content: center;
         animation: 2s linear forwards revelations;
+    }
+
+    .novidades img {
+        display: grid;
+        width: 100%;
+        height: auto;
+        margin: 20vh auto 5vh;
     }
 }
 
