@@ -704,6 +704,34 @@ p {
         width: 20vh;
     }
 
+    /*Pagina Novidades*/
+
+    .novidades {
+       align-content: center;
+       text-align: left;
+    }
+
+    .novidades img {
+        display: grid;
+        width: 95%;
+        height: auto;
+        margin: 20vh auto 5vh;
+        border: 3px solid #FF8303;
+        border-radius: 8px;
+    }
+
+    .novidades h1 {
+        margin-left: 5vh;
+    }
+
+    .novidades p {
+        text-align: justify;
+        margin: 5vh 5vh 10vh;
+    }
+
+
+
+
 }
 
 @media screen and (min-width: 576px) {}
