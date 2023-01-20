@@ -174,7 +174,7 @@ p {
 
     .menu a {
         font-family: 'Albert Sans', sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         color: #F0E3CA;
         text-decoration: none;
         display: inline-block;
@@ -719,12 +719,12 @@ p {
     }
 
     .novidades h1 {
-        margin-left: 5vh;
+        margin-left: 3vh;
     }
 
     .novidades p {
         text-align: justify;
-        margin: 5vh 5vh 10vh;
+        margin: 5vh 3vh 3vh;
     }
 
 
@@ -949,6 +949,15 @@ p {
         height: auto;
         margin: 20vh auto 5vh;
     }
+
+    .novidades h1 {
+        margin-left: 50vh;
+    }
+
+    .novidades p {
+        text-align: justify;
+        margin: 5vh 50vh 3vh;
+    }
 }
 
 @media screen and (min-width: 1200px) {}
@@ -1076,7 +1085,7 @@ p {
 
 
 #versão {
-    /*display: none;*/
+    display: none;
     position: fixed;
     z-index: 500;
     opacity: 0.5;
