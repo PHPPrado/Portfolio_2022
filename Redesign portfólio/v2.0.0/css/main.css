@@ -727,6 +727,12 @@ p {
         margin: 5vh 3vh 3vh;
     }
 
+    .novidades ul {
+        margin: 2vh 6vh 3vh;
+        font-family: 'Albert Sans';
+        color: #4D4C4C;
+    }
+
 
 
 
@@ -957,6 +963,10 @@ p {
     .novidades p {
         text-align: justify;
         margin: 5vh 50vh 3vh;
+    }
+
+    .novidades ul{
+        margin: 2vh 55vh 3vh;
     }
 }
 
