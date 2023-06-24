@@ -549,6 +549,8 @@ p {
         font-size: 50px;
     }
 
+
+
     #section-projetos {
         background-color: #F0E3CA;
         height: 100%;
@@ -560,6 +562,10 @@ p {
         justify-items: center;
     }
 
+    .card-projeto{
+        height: 10vh;
+    }
+
     #div-compacta {
         width: 100%;
     }
@@ -568,12 +574,11 @@ p {
         width: 100%;
     }
 
-
-
+    
     #section-projetos div div div {
         margin-top: 20vh;
     }
-
+    
 
     .display-text2 {
         margin-top: 0px;
