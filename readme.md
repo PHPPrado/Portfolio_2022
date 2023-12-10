@@ -18,6 +18,6 @@ Este portfólio começou a ser desenvolvido em junho de 2022, esteve online pela
 - Pedro Henrique do Prado
 - Estudante
 - Ciência da Computação
-- 3° semestre
+- 5° semestre
 - www.linkedin.com/in/phpprado
  
